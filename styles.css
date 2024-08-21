@@ -1,0 +1,94 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+color: #333;
+background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/bts-header-store-202406?wid=1018&hei=386&fmt=jpeg&qlt=90&.v=1716334557950");
+} 
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.hero {
+    background: url('iphone.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #0071e3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border-radius: 40px;
+}
+.btn :hover {
+    background-color: #ffffff;
+    border: 70px;
+    border: brown;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: white;
+}
+
+.product {
+    text-align: center;
+    width: 30%;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+.iphone15promax {color: black; }
+.nav ul li a :hover {nav ul li a:hover {
+    text-decoration: underline; /* Adds underline on hover for better visibility */
+    color: #ffcc00; /* Changes text color on hover for contrast */
+}
+}
